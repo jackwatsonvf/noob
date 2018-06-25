@@ -1,20 +1,28 @@
 import React, { Component } from 'react';
-import data from './../data.json';
 
 import Card from './Card';
 
-const Cardlist = () => {
-	return data.software.map(ting => (
-		<Card 
-			className="card"
-			icon={ting.icon} 
-			title={ting.title} 
-			para1={ting.para1} 
-			para2={ting.para2}
-			download={ting.download}
-			ting={ting} 
-		/>
-	))
+const Cardlist = ({ cards }) => {
+	return (
+		<div>
+			{
+				cards.map((card, i) => {
+					return (
+						<Card
+							key={i}
+							id={cards[i].id}
+							icon={cards[i].icon}
+							title={cards[i].title}
+							para1={cards[i].para1}
+							para2={cards[i].para2}
+							download={cards[i].download}
+							tags={cards[i].tags}
+						/>
+					);
+				})
+			}
+		</div>
+	)
 }
 
 export default Cardlist

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-import data from './../data.json';
 
 /*
 import {
@@ -13,39 +12,25 @@ import {
 import 'react-accessible-accordion/dist/fancy-example.css';
 */
 
-const ProjectTags = ({ ting }) => {
-	return(
-		ting.tags.map(projects => (
-			<Tag projects={projects} />
-		))
-	)
-}
 
-class Tag extends Component {
-	render() {
-		return <li className="tag">{this.props.projects}</li>
-	}
-}
-
-const Card = props => {
-
+const Card = ({id, icon, title, para1, para2, download, tags}) => {
 	return(
 		<div className="card">
-			<img src={props.icon} alt="lit" />
-			<h2>{props.title}</h2>
+			<img src={icon} alt="lit" />
+			<h2>{title}</h2>
 			<div>
 				<h4>ELI5</h4>
-				<p>{props.para1}</p>
+				<p>{para1}</p>
 			</div>
 			<div>
 				<h4>Useful links</h4>
 				<ul>
-					<li><a href={props.download} target="_blank" >download</a></li>
+					<li><a href={download} target="_blank" >download</a></li>
 				</ul>
 			</div>
 			<h4>Used in the following projects:</h4>
 			<ul>
-				<ProjectTags {...props} />
+				<li>{tags}</li>/>
 			</ul>
 		</div>
 	)
