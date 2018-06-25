@@ -7,7 +7,8 @@ const Cardlist = () => {
 	return data.software.map(ting => (
 		<Card 
 			className="card"
-			icon={ting.icon} 
+			icon={ting.icon}
+			homepage={ting.website} 
 			title={ting.title} 
 			para1={ting.para1} 
 			para2={ting.para2}

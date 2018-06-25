@@ -3,9 +3,10 @@
     {
       "id": 1,
       "icon": "https://www.technoscore.com/images/services/node-js-icon.png",
+      "website": "https://nodejs.org/en/",
       "title": "Node.js",
       "para1": "Node.js is a Javascript based server-side run-time environment. It allows us to...",
-      "para2": "lorem ipsum 2",
+      "para2": "",
       "tags": [
         "one",
         "two",
@@ -18,21 +19,24 @@
     {
       "id": 2,
       "icon": "https://png.icons8.com/color/1600/npm.png",
+      "website": "https://www.npmjs.com/",
       "title": "npm",
       "para1": "Npm is a package manager. A package manager allows developers to share bits of code they have created with each other, so they don't have to spend time devising solutions to coding problems where one may already exist.",
-      "para2": "lorem ipsum 2",
+      "para2": "",
       "tags": [
         "voyager",
         "broadband",
         "three"
-      ]
+      ],
+      "download": "https://docs.npmjs.com/getting-started/installing-node"
     },
     {
       "id": 3,
       "icon": "https://raw.githubusercontent.com/yarnpkg/assets/master/yarn-kitten-circle.png",
+      "website": "https://yarnpkg.com/lang/en/",
       "title": "Yarn",
-      "para1": "Yarn is a package manager, like npm. We use both because...",
-      "para2": "Yarn allows you to use other developers’ solutions to different problems, making it easier for you to develop your software. If you have problems, you can report issues or contribute back, and when the problem is fixed, you can use Yarn to keep it all up to date. Code is shared through something called a package (sometimes referred to as a module). A package contains all the code being shared as well as a package.json file which describes the package.",
+      "para1": "Yarn is a package manager, like npm. We use both because reasons.",
+      "para2": "",
       "tags": [
         "one",
         "three"
@@ -44,23 +48,25 @@
     {
       "id": 4,
       "icon": "https://image.flaticon.com/icons/png/512/919/919853.png",
+      "website": "https://www.docker.com/",
       "title": "Docker",
-      "para1": "Yarn is a package manager, like npm. We use both because...",
-      "para2": "Yarn allows you to use other developers’ solutions to different problems, making it easier for you to develop your software. If you have problems, you can report issues or contribute back, and when the problem is fixed, you can use Yarn to keep it all up to date. Code is shared through something called a package (sometimes referred to as a module). A package contains all the code being shared as well as a package.json file which describes the package.",
+      "para1": "Docker is used to create containers - isolated development environments that we can use to run applications independently from our existing infrastructure. This means if we decide to change that infrastructure in the future, we can do so without worrying that our applications will break.",
+      "para2": "",
       "tags": [
         "one",
         "three"
       ],
-      "download": "https://yarnpkg.com/lang/en/docs/install/#windows-stable",
+      "download": "https://store.docker.com/editions/community/docker-ce-desktop-windows",
       "install-guide": "",
       "tutorials": ""
     },
     {
       "id": 5,
       "icon": "https://upload.wikimedia.org/wikipedia/commons/7/76/Slack_Icon.png",
+      "website": "https://slack.com/",
       "title": "Slack",
       "para1": "Slack is a chat app we use to keep in touch with each other throughout the day. We also use it to make conference calls, share files, and post memes. Open Slack and type /giphy \"enter current emotional state here\", then hit enter, to express yourself through the medium of GIFs.",
-      "para2": "Yarn allows you to use other developers’ solutions to different problems, making it easier for you to develop your software. If you have problems, you can report issues or contribute back, and when the problem is fixed, you can use Yarn to keep it all up to date. Code is shared through something called a package (sometimes referred to as a module). A package contains all the code being shared as well as a package.json file which describes the package.",
+      "para2": "Visit https://vfuk-digital.slack.com and sign up with your work email. You can then download the app using the link below and sign in!",
       "tags": [],
       "download": "https://slack.com/downloads/windows",
       "install-guide": "",
@@ -69,56 +75,60 @@
     {
       "id": 6,
       "icon": "https://avatars1.githubusercontent.com/u/11646750?s=400&v=4",
+      "website": "http://cmder.net/",
       "title": "Cmder",
-      "para1": "Yarn is a package manager, like npm. We use both because...",
-      "para2": "Yarn allows you to use other developers’ solutions to different problems, making it easier for you to develop your software. If you have problems, you can report issues or contribute back, and when the problem is fixed, you can use Yarn to keep it all up to date. Code is shared through something called a package (sometimes referred to as a module). A package contains all the code being shared as well as a package.json file which describes the package.",
+      "para1": "Cmder is, accoding to it's creators, a \"sexy\" console emulator for windows. If you agree, then it's official - you're a developer too.",
+      "para2": "",
       "tags": [
         "one",
         "three"
       ],
-      "download": "https://yarnpkg.com/lang/en/docs/install/#windows-stable",
+      "download": "http://cmder.net/",
       "install-guide": "",
       "tutorials": ""
     },
     {
       "id": 7,
       "icon": "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
+      "website": "https://git-scm.com/",
       "title": "Git",
-      "para1": "Yarn is a package manager, like npm. We use both because...",
-      "para2": "Yarn allows you to use other developers’ solutions to different problems, making it easier for you to develop your software. If you have problems, you can report issues or contribute back, and when the problem is fixed, you can use Yarn to keep it all up to date. Code is shared through something called a package (sometimes referred to as a module). A package contains all the code being shared as well as a package.json file which describes the package.",
+      "para1": "Git is a version control system for tracking changes in computer files and coordinating work on those files among multiple people. It allows individuals to work on their own copy of a project, without worrying about whether any changes they make will break the original.",
+      "para2": "",
       "tags": [
         "one",
         "three"
       ],
-      "download": "https://yarnpkg.com/lang/en/docs/install/#windows-stable",
+      "download": "https://git-scm.com/downloads",
       "install-guide": "",
       "tutorials": ""
     },
     {
       "id": 8,
       "icon": "https://morrislaptop.gallerycdn.vsassets.io/extensions/morrislaptop/vscode-open-in-sourcetree/0.6.0/1527010183206/Microsoft.VisualStudio.Services.Icons.Default",
+      "website": "https://www.sourcetreeapp.com/",
       "title": "SourceTree",
-      "para1": "Yarn is a package manager, like npm. We use both because...",
-      "para2": "Yarn allows you to use other developers’ solutions to different problems, making it easier for you to develop your software. If you have problems, you can report issues or contribute back, and when the problem is fixed, you can use Yarn to keep it all up to date. Code is shared through something called a package (sometimes referred to as a module). A package contains all the code being shared as well as a package.json file which describes the package.",
+      "para1": "Git can be worked with through the command line, but for those of you who aren't masochists there's Sourcetree. It's a user-friendly application which allows you to interact with a git repository without needing to touch the command line.",
+      "para2": "",
       "tags": [
         "one",
         "three"
       ],
-      "download": "https://yarnpkg.com/lang/en/docs/install/#windows-stable",
+      "download": "https://www.sourcetreeapp.com/",
       "install-guide": "",
       "tutorials": ""
     },
     {
       "id": 9,
       "icon": "http://www.stickpng.com/assets/images/5847f989cef1014c0b5e48bf.png",
+      "website": "https://www.gitkraken.com/",
       "title": "GitKraken",
-      "para1": "Yarn is a package manager, like npm. We use both because...",
-      "para2": "Yarn allows you to use other developers’ solutions to different problems, making it easier for you to develop your software. If you have problems, you can report issues or contribute back, and when the problem is fixed, you can use Yarn to keep it all up to date. Code is shared through something called a package (sometimes referred to as a module). A package contains all the code being shared as well as a package.json file which describes the package.",
+      "para1": "Sourcetree with tentacles.",
+      "para2": "",
       "tags": [
         "one",
         "three"
       ],
-      "download": "https://yarnpkg.com/lang/en/docs/install/#windows-stable",
+      "download": "https://www.gitkraken.com/",
       "install-guide": "",
       "tutorials": ""
     }

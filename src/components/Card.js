@@ -31,20 +31,22 @@ const Card = props => {
 
 	return(
 		<div className="card">
-			<img src={props.icon} alt="lit" />
+			<a href={props.homepage} target="_blank">
+				<img src={props.icon} alt="lit" />
+			</a>
 			<h2>{props.title}</h2>
 			<div>
 				<h4>ELI5</h4>
 				<p>{props.para1}</p>
 			</div>
 			<div>
-				<h4>Useful links</h4>
+				<h4>Getting started</h4>
 				<ul>
+					<p>{props.para2}</p>
 					<li><a href={props.download} target="_blank" >download</a></li>
 				</ul>
 			</div>
-			<h4>Used in the following projects:</h4>
-			<ul>
+			<ul className="taglist">
 				<ProjectTags {...props} />
 			</ul>
 		</div>

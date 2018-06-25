@@ -9,6 +9,22 @@ body {
   background-color: #f5f5f5;
 }
 
+.navbar {
+  width: 100%;
+  background-color: #00596a;
+  height: 80px;
+  margin-bottom: 50px;
+}
+
+.navbar h1 {
+  display: block;
+  width: 960px;
+  margin: 0px auto;
+  padding-top: 15px;
+  text-align: center;
+  color: #fff;
+}
+
 .cardlist {
   max-width: 960px;
   margin: 0 auto;
@@ -20,7 +36,7 @@ body {
 .card {
   width: 280px;
   margin: 20px;
-  padding: 50px 20px;
+  padding: 50px 20px 30px;
   background-color: #fff;
   border: 1px solid #ccc;
 }
@@ -41,7 +57,7 @@ body {
 }
 
 .card p {
-  margin-top: 3px;
+  margin: 0px;
   color: #777;
 }
 
@@ -57,10 +73,15 @@ body {
 }
 
 .card .tag {
-  color: #fff;
-  padding: 0px 6px;
-  background-color: #333;
+  color: #333;
+  padding: 2px 6px;
+  background-color: #ccc;
   border-radius: 6px;
+  font-size: 12px;
+}
+
+.taglist {
+  margin-bottom: 20px !important;
 }
 
 @keyframes App-logo-spin {

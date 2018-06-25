@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 
 import Cardlist from './components/Cardlist';
+import Navbar from './components/Navbar';
+import Intro from './components/Intro';
 
 class App extends Component {
   
@@ -28,8 +30,11 @@ class App extends Component {
 
   render() {
     return (
-      <div className="cardlist">
-        <Cardlist />
+      <div>
+        <Navbar />
+        <div className="cardlist">
+          <Cardlist />
+        </div>
       </div>
     );
   }
