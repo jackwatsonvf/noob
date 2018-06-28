@@ -2,21 +2,15 @@ import React, { Component } from 'react';
 
 import data from './../data.json';
 
-/*
-import {
-    Accordion,
-    AccordionItem,
-    AccordionItemTitle,
-    AccordionItemBody,
-} from 'react-accessible-accordion';
+import Popup from './Popup';
 
-import 'react-accessible-accordion/dist/fancy-example.css';
-*/
 
 const ProjectTags = ({ ting }) => {
 	return(
 		ting.tags.map(projects => (
-			<Tag projects={projects} />
+			<Tag 
+				projects={projects}
+			/>
 		))
 	)
 }
@@ -31,6 +25,9 @@ const Card = props => {
 
 	return(
 		<div className="card">
+			<ul className="taglist">
+				<ProjectTags {...props} />
+			</ul>
 			<a href={props.homepage} target="_blank">
 				<img src={props.icon} alt="lit" />
 			</a>
@@ -39,16 +36,9 @@ const Card = props => {
 				<h4>ELI5</h4>
 				<p>{props.para1}</p>
 			</div>
-			<div>
-				<h4>Getting started</h4>
-				<ul>
-					<p>{props.para2}</p>
-					<li><a href={props.download} target="_blank" >download</a></li>
-				</ul>
-			</div>
-			<ul className="taglist">
-				<ProjectTags {...props} />
-			</ul>
+			<h4>Download</h4>
+			<p>Click <a href={props.download} target="_blank">here to download</a></p>
+			<Popup {...props} />
 		</div>
 	)
 }
@@ -56,19 +46,15 @@ const Card = props => {
 export default Card
 
 /*
-{data.software[i].tags.map(projects,i => (
-	<li>{projects}</li>
-))}
 
-<Accordion>
-	<AccordionItem>
-		<AccordionItemTitle>
-            <h3>Simple title</h3>
-        </AccordionItemTitle>
-        <AccordionItemBody>
-            <p>{props.para1}</p>
-        </AccordionItemBody>
-	</AccordionItem>
-</Accordion>
+{props.setuppara1 == true ? <Popup /> : null}
+
+renderModal() {
+	if(this.props.setuppara1 = true)
+		return <Popup {...props} />;
+	return null;
+}
+
+{ renderModal() }
 
 */

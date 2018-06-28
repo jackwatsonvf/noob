@@ -12,8 +12,8 @@
         "two",
         "three"
       ],
-      "download": "https://yarnpkg.com/lang/en/docs/install/#windows-stable",
-      "install-guide": "",
+      "download": "https://nodejs.org/en/download/",
+      "setup": "here's some tuts",
       "tutorials": ""
     },
     {
@@ -21,14 +21,15 @@
       "icon": "https://png.icons8.com/color/1600/npm.png",
       "website": "https://www.npmjs.com/",
       "title": "npm",
-      "para1": "Npm is a package manager. A package manager allows developers to share bits of code they have created with each other, so they don't have to spend time devising solutions to coding problems where one may already exist.",
+      "para1": "Npm is a package manager. A package manager allows developers to share bits of code they have created with each other, so they don't have to spend time devising solutions to problems where one may already exist.",
       "para2": "",
       "tags": [
         "voyager",
         "broadband",
         "three"
       ],
-      "download": "https://docs.npmjs.com/getting-started/installing-node"
+      "download": "https://docs.npmjs.com/getting-started/installing-node",
+      "setupp1": "Create an npm account using the link below. This will allow you to install private dependencies."
     },
     {
       "id": 3,
@@ -42,7 +43,7 @@
         "three"
       ],
       "download": "https://yarnpkg.com/lang/en/docs/install/#windows-stable",
-      "install-guide": "",
+      "setup": "",
       "tutorials": ""
     },
     {
@@ -57,7 +58,10 @@
         "three"
       ],
       "download": "https://store.docker.com/editions/community/docker-ce-desktop-windows",
-      "install-guide": "",
+      "setuppara1": "Download Docker using the link below. For Windows users choose the Linux container. Then verify that Hyper-V is enabled by going to Control Panel > Programs and Features > Turn Windows features on or off >",
+      "setuplink1": "",
+      "setupimg1": "../src/img/docker-1.png",
+      "setuppara2": "",
       "tutorials": ""
     },
     {
@@ -67,9 +71,11 @@
       "title": "Slack",
       "para1": "Slack is a chat app we use to keep in touch with each other throughout the day. We also use it to make conference calls, share files, and post memes. Open Slack and type /giphy \"enter current emotional state here\", then hit enter, to express yourself through the medium of GIFs.",
       "para2": "Visit https://vfuk-digital.slack.com and sign up with your work email. You can then download the app using the link below and sign in!",
-      "tags": [],
+      "tags": ["company-wide"],
       "download": "https://slack.com/downloads/windows",
-      "install-guide": "",
+      "setuppara1": "Visit ",
+      "setuplink1": "https://vfuk-digital.slack.com",
+      "setuppara2": " and sign up with your work email. You can then download the app using the link below and sign in!",
       "tutorials": ""
     },
     {
@@ -84,7 +90,7 @@
         "three"
       ],
       "download": "http://cmder.net/",
-      "install-guide": "",
+      "setup": "",
       "tutorials": ""
     },
     {
@@ -99,7 +105,7 @@
         "three"
       ],
       "download": "https://git-scm.com/downloads",
-      "install-guide": "",
+      "setup": "",
       "tutorials": ""
     },
     {
@@ -114,7 +120,7 @@
         "three"
       ],
       "download": "https://www.sourcetreeapp.com/",
-      "install-guide": "",
+      "setup": "",
       "tutorials": ""
     },
     {
@@ -129,7 +135,7 @@
         "three"
       ],
       "download": "https://www.gitkraken.com/",
-      "install-guide": "",
+      "setup": "",
       "tutorials": ""
     }
   ]

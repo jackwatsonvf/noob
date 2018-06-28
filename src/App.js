@@ -32,6 +32,7 @@ class App extends Component {
     return (
       <div>
         <Navbar />
+        <Intro />
         <div className="cardlist">
           <Cardlist />
         </div>
