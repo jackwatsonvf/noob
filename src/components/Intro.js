@@ -1,12 +1,10 @@
 import React, { Component } from 'react'
 
-import introImage from './../img/idk.jpg'
-
 class Intro extends Component {
   render() {
     return (
       <div className="intro">
-        <img src={introImage} />
+        <img src="/img/idk.jpg" />
         <h2>Welcome to the Vodanoob Portal</h2>
         <p>
           Here we've put together a list of some of the software you'll be
