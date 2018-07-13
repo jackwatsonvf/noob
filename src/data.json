@@ -7,11 +7,7 @@
       "title": "Node.js",
       "para1": "Node.js is a Javascript based server-side run-time environment. It allows us to...",
       "para2": "",
-      "tags": [
-        "one",
-        "two",
-        "three"
-      ],
+      "tags": ["one", "two", "three"],
       "download": "https://nodejs.org/en/download/",
       "setup": "here's some tuts",
       "tutorials": ""
@@ -23,11 +19,7 @@
       "title": "npm",
       "para1": "Npm is a package manager. A package manager allows developers to share bits of code they have created with each other, so they don't have to spend time devising solutions to problems where one may already exist.",
       "para2": "",
-      "tags": [
-        "voyager",
-        "broadband",
-        "three"
-      ],
+      "tags": ["voyager", "broadband", "three"],
       "download": "https://docs.npmjs.com/getting-started/installing-node",
       "setupp1": "Create an npm account using the link below. This will allow you to install private dependencies."
     },
@@ -38,10 +30,7 @@
       "title": "Yarn",
       "para1": "Yarn is a package manager, like npm. We use both because reasons.",
       "para2": "",
-      "tags": [
-        "one",
-        "three"
-      ],
+      "tags": ["one", "three"],
       "download": "https://yarnpkg.com/lang/en/docs/install/#windows-stable",
       "setup": "",
       "tutorials": ""
@@ -53,14 +42,11 @@
       "title": "Docker",
       "para1": "Docker is used to create containers - isolated development environments that we can use to run applications independently from our existing infrastructure. This means if we decide to change that infrastructure in the future, we can do so without worrying that our applications will break.",
       "para2": "",
-      "tags": [
-        "one",
-        "three"
-      ],
+      "tags": ["one", "three"],
       "download": "https://store.docker.com/editions/community/docker-ce-desktop-windows",
       "setuppara1": "Download Docker using the link below. For Windows users choose the Linux container. Then verify that Hyper-V is enabled by going to Control Panel > Programs and Features > Turn Windows features on or off >",
       "setuplink1": "",
-      "setupimg1": "../src/img/docker-1.png",
+      "setupimg1": "/img/docker-1.png",
       "setuppara2": "",
       "tutorials": ""
     },
@@ -85,10 +71,7 @@
       "title": "Cmder",
       "para1": "Cmder is, accoding to it's creators, a \"sexy\" console emulator for windows. If you agree, then it's official - you're a developer too.",
       "para2": "",
-      "tags": [
-        "one",
-        "three"
-      ],
+      "tags": ["one", "three"],
       "download": "http://cmder.net/",
       "setup": "",
       "tutorials": ""
@@ -100,10 +83,7 @@
       "title": "Git",
       "para1": "Git is a version control system for tracking changes in computer files and coordinating work on those files among multiple people. It allows individuals to work on their own copy of a project, without worrying about whether any changes they make will break the original.",
       "para2": "",
-      "tags": [
-        "one",
-        "three"
-      ],
+      "tags": ["one", "three"],
       "download": "https://git-scm.com/downloads",
       "setup": "",
       "tutorials": ""
@@ -115,10 +95,7 @@
       "title": "SourceTree",
       "para1": "Git can be worked with through the command line, but for those of you who aren't masochists there's Sourcetree. It's a user-friendly application which allows you to interact with a git repository without needing to touch the command line.",
       "para2": "",
-      "tags": [
-        "one",
-        "three"
-      ],
+      "tags": ["one", "three"],
       "download": "https://www.sourcetreeapp.com/",
       "setup": "",
       "tutorials": ""
@@ -130,10 +107,7 @@
       "title": "GitKraken",
       "para1": "Sourcetree with tentacles.",
       "para2": "",
-      "tags": [
-        "one",
-        "three"
-      ],
+      "tags": ["one", "three"],
       "download": "https://www.gitkraken.com/",
       "setup": "",
       "tutorials": ""
